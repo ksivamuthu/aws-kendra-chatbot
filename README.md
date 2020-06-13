@@ -1,1 +1,1 @@
-# AWS Kendra Chatbot
+# AWS Kendra Chat Bot
