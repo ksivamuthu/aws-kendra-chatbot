@@ -1,0 +1,41 @@
+{
+    "resourceName": "restaurant",
+    "botName": "restaurant_bot",
+    "intents": [
+        {
+            "slots": [
+                {
+                    "name": "Food",
+                    "type": "AMAZON.Food",
+                    "prompt": "What do you want to order?",
+                    "required": true,
+                    "customType": false
+                },
+                {
+                    "name": "Drink",
+                    "type": "AMAZON.Drink",
+                    "prompt": "What drink do you want to add in this order?",
+                    "required": true,
+                    "customType": false
+                },
+                {
+                    "name": "PickupTime",
+                    "type": "AMAZON.TIME",
+                    "prompt": "When do you want to schedule the pickup?",
+                    "required": true,
+                    "customType": false
+                }
+            ],
+            "utterances": [
+                "Order a take out",
+                "I would like to order a takeout",
+                "I want to order dinner to takeout"
+            ],
+            "intentName": "OrderTakeOut",
+            "newSlotTypes": []
+        }
+    ],
+    "outputVoice": false,
+    "sessionTimeout": "15",
+    "coppa": true
+}

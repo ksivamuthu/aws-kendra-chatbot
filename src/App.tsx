@@ -11,7 +11,6 @@ const myTheme = {
   ...AmplifyTheme,
   sectionHeader: {
     ...AmplifyTheme.sectionHeader,
-    backgroundColor: '#ff6600'
   }
 };
 
@@ -23,8 +22,7 @@ class App extends Component {
       return;
     }
 
-    alert('Success: ' + JSON.stringify(confirmation, null, 2));
-    return 'Trip booked. Thank you! what would you like to do next?';
+    return 'Takeout Order Booked. Thank you! what would you like to do next?';
   }
 
   render() {
@@ -34,7 +32,7 @@ class App extends Component {
           <ChatBot
             title="Restaurant Bot"
             theme={myTheme}
-            botName="BookTrip_dev"
+            botName="restaurant_bot_dev"
             welcomeMessage="Welcome, how can I help you today?"
             onComplete={this.handleComplete.bind(this)}
             clearOnComplete={true}
