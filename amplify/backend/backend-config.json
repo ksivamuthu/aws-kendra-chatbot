@@ -1,15 +1,24 @@
 {
-	"auth": {
-		"cognito4d85ee2e": {
-			"service": "Cognito",
-			"providerPlugin": "awscloudformation"
-		}
-	},
-	"interactions": {
-		"restaurant": {
-			"service": "Lex",
-			"providerPlugin": "awscloudformation",
-			"build": true
-		}
-	}
+    "auth": {
+        "cognito4d85ee2e": {
+            "service": "Cognito",
+            "providerPlugin": "awscloudformation"
+        }
+    },
+    "interactions": {
+        "restaurant": {
+            "service": "Lex",
+            "providerPlugin": "awscloudformation",
+            "build": true
+        }
+    },
+    "function": {
+        "kendra": {
+            "build": true,
+            "providerPlugin": "awscloudformation",
+            "service": "Lambda",
+            "dependsOn": []
+        }
+    },
+    "api": {}
 }

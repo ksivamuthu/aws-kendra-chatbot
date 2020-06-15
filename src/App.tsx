@@ -21,8 +21,11 @@ class App extends Component {
       alert('Bot conversation failed')
       return;
     }
-
-    return 'Takeout Order Booked. Thank you! what would you like to do next?';
+    console.log(confirmation);
+    const slots = confirmation.slots;
+    if (slots.Food && slots.Drink && slots.PickupTime) {
+      return 'Order confirmed. Thank you!';
+    }
   }
 
   render() {
@@ -35,7 +38,7 @@ class App extends Component {
             botName="restaurant_bot_dev"
             welcomeMessage="Welcome, how can I help you today?"
             onComplete={this.handleComplete.bind(this)}
-            clearOnComplete={true}
+            clearOnComplete={false}
             conversationModeOn={false}
           />
         </div>
