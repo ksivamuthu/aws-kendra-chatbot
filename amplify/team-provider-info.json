@@ -1,0 +1,20 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-awskendrachatbot-dev-225042-authRole",
+            "UnauthRoleArn": "arn:aws:iam::406070862239:role/amplify-awskendrachatbot-dev-225042-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::406070862239:role/amplify-awskendrachatbot-dev-225042-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "amplify-awskendrachatbot-dev-225042-deployment",
+            "UnauthRoleName": "amplify-awskendrachatbot-dev-225042-unauthRole",
+            "StackName": "amplify-awskendrachatbot-dev-225042",
+            "StackId": "arn:aws:cloudformation:us-east-1:406070862239:stack/amplify-awskendrachatbot-dev-225042/02065590-aeb3-11ea-9166-0ee829539650",
+            "AmplifyAppId": "d2zi8akmu00mps"
+        },
+        "categories": {
+            "auth": {
+                "cognito4d85ee2e": {}
+            }
+        }
+    }
+}

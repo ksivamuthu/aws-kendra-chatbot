@@ -1,0 +1,15 @@
+{
+	"auth": {
+		"cognito4d85ee2e": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation"
+		}
+	},
+	"interactions": {
+		"restaurantfaq": {
+			"service": "Lex",
+			"providerPlugin": "awscloudformation",
+			"build": true
+		}
+	}
+}
