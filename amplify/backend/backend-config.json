@@ -5,11 +5,5 @@
 			"providerPlugin": "awscloudformation"
 		}
 	},
-	"interactions": {
-		"restaurantfaq": {
-			"service": "Lex",
-			"providerPlugin": "awscloudformation",
-			"build": true
-		}
-	}
+	"interactions": {}
 }
