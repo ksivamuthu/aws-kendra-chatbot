@@ -86,6 +86,16 @@ You can add more capacity - query-based or storage-based in Enterprise Edition b
 
 ![Demo](https://dev-to-uploads.s3.amazonaws.com/i/o3yys71qr24p3279c1ab.gif)
 
+## Lex Bot Integration
+
+### How to run demo?
+
+```
+amplify configure
+amplify push
+npm run start
+```
+
 ## Final Thoughts
 
 Amazon Kendra uses deep learning models to understand natural and complex language queries and document content and structures for a wide range of internal use cases like IT, financial services, insurance, pharmaceuticals, industrial manufacturing, energy, legal, media and entertainment, travel and hospitality, healthcare, HR, news, telecommunications, and automotive. Its benefits are great.
